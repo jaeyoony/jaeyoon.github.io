@@ -739,7 +739,6 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  overflow: hidden;
 }
 .work .desc h3 {
   font-size: 20px;
@@ -756,9 +755,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, 15px, 0);
   transform: translate3d(0, 15px, 0);
-  width: relative;
-  align: center;
-
+  
 }
 @media screen and (max-width: 768px) {
   .work .desc {
